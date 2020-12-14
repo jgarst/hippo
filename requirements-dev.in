@@ -1,3 +1,4 @@
 pip-tools
 jupyter
 ipython-sql
+psycopg2-binary
