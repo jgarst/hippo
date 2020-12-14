@@ -12,6 +12,7 @@ RUN chmod +x /entrypoint.sh
 
 USER jovyan
 
+COPY *.ipynb ./
 COPY requirements.txt ./
 
 RUN pip install --no-cache -r requirements.txt
